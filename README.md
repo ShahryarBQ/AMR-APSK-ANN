@@ -24,7 +24,7 @@ Use the output files of "GenerateDatasetTemp.m" to generate "Figures 3 and 7". N
 The expected output files of this "paperFigsPlots1.m" script has also been uploaded here, see "misc/figures". The input files for this code have also been uploaded, see "misc/results".
 
 ### GenerateDataset.m
-Takes the parameters for the dataset as given in "Section 5: The classifier entity" of the paper (dataset size and desired SNRs), and creates a dataset using the "myAPSK.m" and "featureExctract.m" functions. This dataset is used in "Table 4", but because other datasets with different parameters are required for "Figures 3, 4, 7~10 and 12~14", this function is also used there.
+Takes the parameters for the dataset as given in "Section 5: The classifier entity" of the paper (dataset size and desired SNRs), and creates a dataset using the "myAPSK.m" and "featureExctract.m" functions. This dataset is used in "Table 4", but because other datasets with different parameters are required for "Figures 3, 4, 7-10 and 12-14", this function is also used there.
 
 Note that these datasets only hold the final features in them, therefore the main signals which the features are extracted from them are thrown away.
 
@@ -56,6 +56,6 @@ Use the learned ANN model and the test sets to evaluate the accuracy of the mode
 
 The expected output files of this "generateAvData.py" script has also been uploaded here, see "misc/results". The input files for this code are generated using the "main.m" and "train.py" scripts, but they have also been uploaded, see "misc/testSets" and "misc/NNmodels".
 
-## Refernce
+## Reference
 [1] A. K. Ali and E. Erçelebi:
 *Automatic modulation recognition of DVB-S2X standard-specific with an APSK-based neural network classifier*. Measurement, vol. 151, p. 107257, Feb. 2020, doi: 10.1016/j.measurement.2019.107257.
